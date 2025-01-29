@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Mission4GroupTicTacToe;
+
 internal class Program
 {
     public static void Main(string[] args)
@@ -77,3 +78,4 @@ internal class Program
 
     }
 }
+

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielwait/RiderProjects/Mission4GroupTicTacToe/Mission4GroupTicTacToe.csproj": {}
+    "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\Mission4GroupTicTacToe.csproj": {}
   },
   "projects": {
-    "/Users/danielwait/RiderProjects/Mission4GroupTicTacToe/Mission4GroupTicTacToe.csproj": {
+    "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\Mission4GroupTicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielwait/RiderProjects/Mission4GroupTicTacToe/Mission4GroupTicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\Mission4GroupTicTacToe.csproj",
         "projectName": "Mission4GroupTicTacToe",
-        "projectPath": "/Users/danielwait/RiderProjects/Mission4GroupTicTacToe/Mission4GroupTicTacToe.csproj",
-        "packagesPath": "/Users/danielwait/.nuget/packages/",
-        "outputPath": "/Users/danielwait/RiderProjects/Mission4GroupTicTacToe/obj/",
+        "projectPath": "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\Mission4GroupTicTacToe.csproj",
+        "packagesPath": "C:\\Users\\brynn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/danielwait/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
