@@ -8,31 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\brynn\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/jacks/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\Mission4GroupTicTacToe.csproj",
+      "projectUniqueName": "/Users/jacks/RiderProjects/Mission4GroupTicTacToe/Mission4GroupTicTacToe.csproj",
       "projectName": "Mission4GroupTicTacToe",
-      "projectPath": "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\Mission4GroupTicTacToe.csproj",
-      "packagesPath": "C:\\Users\\brynn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brynn\\Source\\Repos\\Mission4GroupTicTacToe1\\obj\\",
+      "projectPath": "/Users/jacks/RiderProjects/Mission4GroupTicTacToe/Mission4GroupTicTacToe.csproj",
+      "packagesPath": "/Users/jacks/.nuget/packages/",
+      "outputPath": "/Users/jacks/RiderProjects/Mission4GroupTicTacToe/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\brynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jacks/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +42,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -72,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/jacks/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

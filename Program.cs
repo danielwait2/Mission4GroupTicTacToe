@@ -14,7 +14,7 @@ internal class Program
         bool gameOver = false;
         int playerTurn = 0;
         char BoardCharacter = ' ';
-        string userInput = " ";
+        string userInput = "";
         string winner = "";
         
         
