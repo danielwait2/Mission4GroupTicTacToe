@@ -10,7 +10,12 @@ internal class Program
         TicTacToeFunctions tttf = new TicTacToeFunctions();
         
         // initalize the array andd varibales
-        char [,] boardArray = new char[3,3];
+        char[,] boardArray = new char[3, 3]
+        {
+            { '-', '-', '-' },
+            { '-', '-', '-' },
+            { '-', '-', '-' }
+        };
         bool gameOver = false;
         int playerTurn = 0;
         char BoardCharacter = ' ';
@@ -25,7 +30,7 @@ internal class Program
         Console.WriteLine("Enter the coordinates with a comma between ex. 1,0");
         Console.WriteLine("Player 1 (X) will go first and player 2 (O) will go second.");
 
-        PrintBoard(boardArray);
+        tttf.PrintBoard(boardArray);
         
         
         // ask each player in turn for their choice and update the board array
@@ -56,7 +61,7 @@ internal class Program
             // replace board with the right 
             boardArray[row, col] = BoardCharacter;
 
-            PrintBoard(boardArray);
+            tttf.PrintBoard(boardArray);
             
             
             // check for the winner
