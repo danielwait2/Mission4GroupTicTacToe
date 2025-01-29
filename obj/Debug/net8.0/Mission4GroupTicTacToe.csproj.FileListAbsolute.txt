@@ -1,0 +1,15 @@
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.AssemblyInfoInputs.cache
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.AssemblyInfo.cs
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.sourcelink.json
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\bin\Debug\net8.0\Mission4GroupTicTacToe.exe
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\bin\Debug\net8.0\Mission4GroupTicTacToe.deps.json
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\bin\Debug\net8.0\Mission4GroupTicTacToe.runtimeconfig.json
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\bin\Debug\net8.0\Mission4GroupTicTacToe.dll
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\bin\Debug\net8.0\Mission4GroupTicTacToe.pdb
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.dll
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\refint\Mission4GroupTicTacToe.dll
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.pdb
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\Mission4GroupTicTacToe.genruntimeconfig.cache
+C:\Users\brynn\Source\Repos\Mission4GroupTicTacToe1\obj\Debug\net8.0\ref\Mission4GroupTicTacToe.dll
