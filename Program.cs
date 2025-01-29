@@ -25,7 +25,7 @@ internal class Program
         
         //welcome the user to the game
 
-        Console.WriteLine("Lets play Tic Tac Toe:");
+        Console.WriteLine("Lets play Array Tic Tac Toe:");
         Console.WriteLine("Each player must input the coordinates of the space they wish to go.");     
         Console.WriteLine("Enter the coordinates with a comma between ex. 1,0");
         Console.WriteLine("Player 1 (X) will go first and player 2 (O) will go second.");
@@ -48,18 +48,44 @@ internal class Program
                 Console.WriteLine("Player 2's Turn");
                 BoardCharacter = 'O';
             }
-            Console.WriteLine("Enter the coordinates:");
+            bool validInput = false;
             playerTurn++;
-            userInput = Console.ReadLine();
             
-            
-            //splits the input 
-            string[] parts = userInput.Split(',');
-            int row = int.Parse(parts[0]);
-            int col = int.Parse(parts[1]);
-            
-            // replace board with the right 
-            boardArray[row, col] = BoardCharacter;
+            while (!validInput)
+            {
+                Console.WriteLine("Enter the coordinates (row,col):");
+                
+                userInput = Console.ReadLine();
+
+                // Validate input format
+                string[] parts = userInput.Split(',');
+
+                if (parts.Length == 2 && int.TryParse(parts[0], out int row) && int.TryParse(parts[1], out int col))
+                {
+                    // Ensure the coordinates are within bounds
+                    if (row >= 0 && row < 3 && col >= 0 && col < 3)
+                    {
+                        // Ensure the spot is not already taken
+                        if (boardArray[row, col] == '-')
+                        {
+                            boardArray[row, col] = BoardCharacter; // Mark the spot
+                            validInput = true; // Valid input, break the loop
+                        }
+                        else
+                        {
+                            Console.WriteLine("That spot is already taken. Please choose a different spot.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid coordinates. Please enter numbers between 0 and 2 for both row and column.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input format. Please enter the coordinates as row,col (e.g., 0,1).");
+                }
+            }
 
             tttf.PrintBoard(boardArray);
             
@@ -71,6 +97,11 @@ internal class Program
             {
                 Console.WriteLine("Player " + WinnerInt + " wins!");
                 gameOver = true;
+            }
+
+            else if (playerTurn == 9)
+            {
+                Console.WriteLine(" Its a tie! You both lost!");
             }
 
         }
